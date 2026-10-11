@@ -1,3 +1,25 @@
+.mobile-nav {
+  position: absolute;
+  inset: 96px 0 auto;
+  height: calc(100vh - 96px);
+  height: calc(100dvh - 96px);
+}
+
+@media (max-width: 800px) {
+  .mobile-nav {
+    inset: 78px 0 auto;
+    height: calc(100vh - 78px);
+    height: calc(100dvh - 78px);
+  }
+}
+
+.menu-button {
+  min-width: 44px;
+  min-height: 44px;
+  justify-content: center;
+}
+
+@media (max-width: 520px) {
 .hero-grid {
   gap: 20px;
   padding-top: 20px;
@@ -94,4 +116,5 @@
 
 .section-head {
   margin-bottom: 32px;
+}
 }
