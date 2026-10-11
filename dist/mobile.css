@@ -1,0 +1,97 @@
+.hero-grid {
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.hero-photo img {
+  height: clamp(230px, 72vw, 280px);
+}
+
+.hero-copy {
+  padding-bottom: 36px;
+}
+
+.section {
+  padding-block: 58px;
+}
+
+.statement-grid,
+.about-grid,
+.contact-grid {
+  gap: 38px;
+}
+
+.statement-heading h2,
+.section-head h2,
+.donate-inner h2,
+.contact-grid h2 {
+  font-size: clamp(36px, 10vw, 42px);
+  line-height: 1.05;
+}
+
+.priority-list li {
+  padding-block: 18px;
+}
+
+.about-image img {
+  height: min(112vw, 420px);
+}
+
+.strip-track figure {
+  height: clamp(280px, 90vw, 340px);
+}
+
+.endorsement-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.endorsement {
+  grid-column: span 1 !important;
+}
+
+.social-grid {
+  gap: 16px;
+}
+
+.social-card {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+  align-items: start;
+  gap: 14px;
+  padding-top: 10px;
+}
+
+.social-card img {
+  aspect-ratio: 1;
+}
+
+.social-card p {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.action-panel {
+  padding: 52px 20px;
+}
+
+.action-panel ul {
+  margin-top: 32px;
+}
+
+.action-panel li {
+  padding-block: 12px;
+}
+
+.merch-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 12px;
+}
+
+.merch-item > strong {
+  font-size: 13px;
+}
+
+.section-head {
+  margin-bottom: 32px;
+}
